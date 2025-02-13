@@ -1,0 +1,78 @@
+body{
+
+    background-color: #eee;
+}
+
+.tittle{
+
+    text-align: center;
+    background-color: #000;
+    padding: 15px;
+    color: #fff
+}
+
+.box{
+
+    width: 500px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.fields{
+
+    padding: 10px 20px;
+    display: flex!important; 
+    justify-content: space-between!important;
+    
+}
+
+
+
+.sbtbtn{
+
+    background-color: #000;
+    color: #fff;
+
+    padding: 12px 16px
+
+}
+
+.btn{
+
+    background-color: #000;
+    color: #fff;
+
+    padding: 12px 16px
+
+}
+
+
+@media print{
+
+
+    body{
+
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0px auto;
+    }
+    
+    .forminputs{
+
+        display: none;
+    }
+
+   .card{
+
+    visibility: visible;
+   }
+   
+    .btncontainer > button{
+      
+        display: none;
+
+    }
+
+}

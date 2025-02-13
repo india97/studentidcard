@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box forminputs" >
+            <h3 class="tittle">School Details</h3>
+            <form>
+
+                <div class="fields">
+                    <label for="studentName">Student Name</label>
+                    <input type="text" id="studentName">
+                </div>
+
+                <div class="fields">
+                    <label for="schoolName">School Name</label>
+                    <input type="text" id="schoolName">
+                </div>
+
+                <div class="fields">
+                    <label for="mobilenumber">Mobile Number</label>
+                    <input type="number" id="mobilenumber">
+                </div>
+
+                <div class="fields">
+                    <label for="birth">Date Of Birth</label>
+                    <input type="date" id="birth">
+                </div>
+
+                <div class="fields">
+                    <label for="className">Class Name</label>
+                    <input type="number" id="className">
+                </div>
+                <div class="fields">
+                    <button class="sbtbtn" type="button" onclick="updateCard()">Submit Now</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+<!-----fil detail form----->
+
+<div class="container">
+ <div class="box card">
+    <h3 class="tittle">Student Details</h3>
+
+    <div class="fields">
+        <label>Student Name</label>
+        <label id="studentnameval">zahid</label>
+
+    </div>
+
+    <div class="fields">
+        <label>School Name</label>
+        <label id="schoolnameval">sikkim</label>
+
+    </div>
+
+    <div class="fields">
+        <label>Mobile Number</label>
+        <label id="mobileval">12334567890</label>
+
+    </div>
+
+    <div class="fields">
+        <label>Date Of Birth</label>
+        <label id="birthval">01/09/2023</label>
+
+    </div>
+
+    <div class="fields">
+        <label>Class Name</label>
+        <label id="classnameval">10th</label>
+
+    </div>
+
+    <div class="btncontainer">
+        
+        <button type="button" class="btn" onclick="printidcard()"> Print ID Card</button>
+
+    </div>
+
+
+ </div>
+
+
+</div>
+
+
+
+
+</body>
+
+<script src="scriptjs/script.js"></script>
+
+</html>
